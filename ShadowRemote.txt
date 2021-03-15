@@ -1,0 +1,8 @@
+Shadow Remote
+before shadow remote, please follow action below
+- goto Control Panel\All Control Panel Items\Windows Defender Firewall\Allowed apps
+- find File and Printer Sharing, check Domain, Private and Public
+- quser /server DESKTOP-P8QE88U
+- Mstsc /v:DESKTOP-P8QE88U /noConsentPrompt /shadow:1
+- Mstsc /v:PC000 /noConsentPrompt /shadow:1 /control
+       
